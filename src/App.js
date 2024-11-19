@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// There are two types of components in React. -
+// 1. Functional component.
+// 2. Class component. - Class component is now deprecated.
+// Functional Component - Functional component is simple javascript function which returns xml or html
+// Functional components name should be in pascal case.
+
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      App Component
+
+
     </div>
-  );
+
+  )
 }
 
 export default App;
